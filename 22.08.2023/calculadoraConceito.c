@@ -38,7 +38,5 @@ int main(){
 
     printf("valor1: %d\n", valor1);
 
-
-
     return 0;
 }
