@@ -3,7 +3,7 @@
 int main(){
     int valor1;
     int valor2;
-    int resultado1, resultado2, resultado3, resultado4, resultado5;
+    int resultado1, resultado2, resultado3, resultado4, resultado5, resultado6;
 
     valor1 = 11;
     valor2 = 2;
@@ -27,6 +27,11 @@ int main(){
     // resto da divisão: resultado = valor1 % valor2;
     resultado5 = valor1 % valor2;
     printf("resultado: %d\n", resultado5);
+
+    // variação da soma: resultado = valor1 + 1;
+    valor1 = valor1 + 1;
+    printf("resultado: %d\n", resultado6);
+
 
 
     return 0;
