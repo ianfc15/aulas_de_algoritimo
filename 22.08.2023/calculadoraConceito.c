@@ -28,8 +28,14 @@ int main(){
     resultado5 = valor1 % valor2;
     printf("resultado: %d\n", resultado5);
 
-    // variação da soma: resultado = valor1 + 1;
+    // variação da soma (incremento): resultado = valor1 + 1;
     valor1 = valor1 + 1;
+    valor1++;
+
+    // variação da soma (decremento): resultado = valor1 - 1;
+    valor1 = valor1 - 1;
+    valor1--;
+
     printf("valor1: %d\n", valor1);
 
 
