@@ -30,7 +30,7 @@ int main(){
 
     // variação da soma: resultado = valor1 + 1;
     valor1 = valor1 + 1;
-    printf("resultado: %d\n", resultado6);
+    printf("valor1: %d\n", valor1);
 
 
 
