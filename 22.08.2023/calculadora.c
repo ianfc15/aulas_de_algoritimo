@@ -5,7 +5,7 @@ int main(){
     int valor2;
     int resultado1, resultado2, resultado3, resultado4, resultado5;
 
-    valor1 = 10;
+    valor1 = 11;
     valor2 = 2;
 
     // soma: resultado = valor1 + valor2;
