@@ -23,6 +23,8 @@ int main(){
         resultado = valor1 * valor2;
     }else if(operacao == '/'){
         resultado = valor1 / valor2;
+    }else if(operacao == '%'){
+        resultado = valor1 % valor2;
     }
 
     printf("operacao: %c\n", operacao);
