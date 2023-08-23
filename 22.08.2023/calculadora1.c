@@ -15,8 +15,18 @@ int main(){
     printf("Valor 2:\n");
     scanf("%d", &valor2);
 
-    resultado = valor1 + valor2;
-    printf("%d", resultado);
+    if(operacao == '+'){
+        resultado = valor1 + valor2;
+    }else if(operacao == '-'){
+        resultado = valor1 - valor2;
+    }else if(operacao == '*'){
+        resultado = valor1 * valor2;
+    }else if(operacao == '/'){
+        resultado = valor1 / valor2;
+    }
+
+    printf("operacao: %c\n", operacao);
+    printf("resultado: %d\n", resultado);
 
     return 0;
 }
