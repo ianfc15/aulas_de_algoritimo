@@ -16,19 +16,27 @@ int main(){
     scanf("%d", &valor2);
 
     if(operacao == '+'){
-        printf("resultado: %d\n", valor1 + valor2);
+        printf("Resultado: %d\n", valor1 + valor2);
     }else if(operacao == '-'){
-        printf("resultado: %d\n", valor1 - valor2);
+        printf("Resultado: %d\n", valor1 - valor2);
     }else if(operacao == '*'){
-        printf("resultado: %d\n", valor1 * valor2);
+        printf("Resultado: %d\n", valor1 * valor2);
     }else if(operacao == '/'){
-        printf("resultado: %d\n", valor1 / valor2);
+        printf("Resultado: %d\n", valor1 / valor2);
     }else if(operacao == '%'){
-        printf("resultado: %d\n", valor1 % valor2);
+        printf("Resultado: %d\n", valor1 % valor2);
+    }else if(operacao == 'c' && valor1 > valor2){
+        printf("%d e maior  que %d", valor1, valor2);
+    }else if(operacao == 'c' && valor1 < valor2){
+        printf("%d e menor  que %d", valor1, valor2);
+    }else if(operacao == 'c' && valor1 == valor2){
+        printf("%d e igual  que %d", valor1, valor2);
+    }else{
+        printf("OPERAÇÃO INVALIDA");
     }
 
     printf("operacao: %c\n", operacao);
-    printf("resultado: %d\n", resultado);
+   // printf("resultado: %d\n", resultado);
 
     return 0;
 }
