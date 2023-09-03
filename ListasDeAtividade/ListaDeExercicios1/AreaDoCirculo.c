@@ -2,15 +2,14 @@
 #include <math.h>
 
 int main(){
-    double area;
-    double raio;
-    double pi = 3.14159;
+    double raio, area;
+    const double pi = 3.14159;
 
-    printf("Digite o raio da circunferencia: \n");
-    scanf("%f", raio);
-    area = pi * (raio * raio);
+    scanf("%lf", &raio);
 
-    prinf("%.4f", area);
+    area = pi * pow(raio, 2);
+
+    printf("A=%.4f\n", area);
 
     return 0;
-}
+}   
