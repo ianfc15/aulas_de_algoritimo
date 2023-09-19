@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
+    #include <stdio.h>
+    #include <math.h>
+    #include <stdlib.h>
 
 int main(){
     float n1, n2, n3, n4, media, notaexaame;
