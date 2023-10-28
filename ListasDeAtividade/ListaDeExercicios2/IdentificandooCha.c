@@ -6,7 +6,7 @@ int main(){
     int i, cha, concorente, acertos;
 
     acertos = 0;
-
+    
     scanf("%d", &cha);
 
     for (i = 1; i <= 5; i++){
